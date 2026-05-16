@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MukundaKatta/luhn",
+  "description": "MCP server: compute and verify the Luhn (mod-10) checksum for credit cards and IDs.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/MukundaKatta/luhn-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/MukundaKatta/luhn-mcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mukundakatta/luhn-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
